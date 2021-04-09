@@ -23,8 +23,8 @@ Esse projeto foi desenvolvido baseado em aulas do ignite da rocketseat, com o in
 
 ## 🖼 Layout
 <p align="center">
-<img src="">
-<img src="">
+<img src="https://user-images.githubusercontent.com/51330232/114249542-48670f80-9971-11eb-8b77-a904e470e090.png">
+<img src="https://user-images.githubusercontent.com/51330232/114249536-4735e280-9971-11eb-86ab-0634d8e0e3aa.png">
 </p>
 
 ### :muscle: Quem deu aquela força para não desistir?
