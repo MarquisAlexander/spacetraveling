@@ -1,1 +1,78 @@
 // TODO
+.homeContent {
+    max-width: 720px;
+    padding: 0 1.25rem;
+  
+    margin: 0 auto;
+  
+    a {
+      display: block;
+  
+      & + a {
+        margin-top: 3rem;
+      }
+  
+      h1 {
+        font-size: 1.75rem;
+        transition: color 0.2s;
+      }
+  
+      &:hover h1 {
+        color: var(--highlight);
+      }
+  
+      > p {
+        margin-top: 0.5rem;
+        font-size: 1.125rem;
+      }
+  
+      section {
+        display: flex;
+        margin-top: 1.5rem;
+  
+        font-size: 0.875rem;
+        color: var(--info);
+  
+        div {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+  
+          .icon {
+            margin-right: 0.625rem;
+          }
+  
+          time {
+            display: flex;
+            align-items: center;
+            margin-right: 1.5rem;
+            font-size: 0.875rem;
+          }
+    
+          p {
+            display: flex;
+            align-items: center;
+            font-size: 0.875rem;
+          }
+        }
+      }
+    }
+  
+    button {
+      border: 0;
+  
+      margin: 3.5rem 0;
+  
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: var(--highlight);
+  
+      background: transparent;
+  
+      transition: filter 0.2s;
+  
+      &:hover {
+        filter: brightness(0.8);
+      }
+    }
+  }

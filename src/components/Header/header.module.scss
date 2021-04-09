@@ -1,1 +1,20 @@
 // TODO
+.headerContainer {
+    height: 6rem;
+  }
+  
+  .headerContent {
+    max-width: 720px;
+    height: 100%;
+  
+    display: flex;
+    align-items: center;
+  
+    margin: 0 auto;
+    padding: 0 1.25rem;
+  
+    img {
+      height: 1.5rem;
+      cursor: pointer;
+    }
+  }
